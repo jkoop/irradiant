@@ -2,7 +2,7 @@
 Irradiant is a "per-triangle" 3D render engine that outputs `.svg` files. It's made to be super fast.
 
 The Utah Teapot as rendered by Irradiant v0.7.3:
-![](http://joekoop.com/projects/irradiant/screenshot.png)
+![](screenshot.png)
 
 ## Notice
 This was written for [Ubuntu](//ubuntu.com "Ubuntu's website's homepage")-compatible OSs such as [Ubuntu](//ubuntu.com "Ubuntu's website's homepage"), and [Linux Mint](//linuxmint.com "Linux Mint's website's homepage").
