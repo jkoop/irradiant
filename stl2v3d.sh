@@ -1,0 +1,2 @@
+#! /bin/bash
+echo "[";cat $1|tail -n $(x=$(wc -l $1|sed 's/ '$1'//g');let x=$x-2;echo $x)|sed 's/facet normal.*//g'|sed ':a;N;$!ba;s/\nvertex /],[/g'|sed ':a;N;$!ba;s/outer loop]/\t["#F00"/g'|sed ':a;N;$!ba;s/\n\n/\n/g'|sed ':a;N;$!ba;s/\nendloop/]],/g'|sed ':a;N;$!ba;s/\nendfacet//g'|sed 's/ /,/g'|sed ':a;N;$!ba;s/,\nendsolid.*/\n]/g'|sed 's/0,/,/g'|sed 's/0,/,/g'|sed 's/0,/,/g'|sed 's/0,/,/g'|sed 's/0,/,/g'|sed 's/0,/,/g'|sed 's/\.,/,/g'|sed 's/0]/]/g'|sed 's/0]/]/g'|sed 's/0]/]/g'|sed 's/0]/]/g'|sed 's/0]/]/g'|sed 's/0]/]/g'|sed 's/\.]/]/g'
